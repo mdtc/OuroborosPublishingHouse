@@ -1,0 +1,888 @@
+
+/* Global design starts */
+
+
+body{
+    background: #F7F5F5;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+
+header{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+    font-family: 'Allerta Stencil', sans-serif;
+
+}
+
+
+header h1{
+    font-size: 200%;
+    margin-bottom: 2%;
+}
+
+.logo{
+    width: 20%;
+    margin-top: 1px;
+}
+
+header h2{
+    padding-top: 0%;
+    margin-top: 0%;
+    font-size: 150%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.brand{
+    display: block;
+    position: relative;
+}
+
+main{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+/* global design end */
+
+/* ------------------------------------------------------- */
+
+/* home page starts */
+
+.menuHidden{
+    display: none;
+}
+
+
+section{
+    display: block;
+    margin: 0px;
+    text-align: center;
+}
+
+
+.sectionBox{
+    position: relative;
+    background: rgba(12, 12, 12, 0.3);
+    border: 1px solid black;
+    font-family: 'Cinzel', serif;
+    padding-bottom: 7%;
+
+}
+
+.sectionBox:hover{
+    background: rgba(12, 12, 12, 0.6);
+}
+
+
+.sectionBox h1{
+    font-size: xx-large;
+    padding-top: 10%;
+    padding-bottom: 8%;
+    color: white;
+    font-weight: 900;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.sectionBox h3 {
+    font-size: large;
+    padding-bottom: 5%;
+    color: white;
+    font-weight: 700;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.divButton{
+    background: rgba(36, 36, 36, 0.7);
+    width: 30%;
+    border: 3px solid white;
+    margin-right: 35%;
+    margin-left: 35%;
+    padding:1%;
+    
+}
+
+.divButton a {
+    text-decoration: none;
+    color: ivory;
+    display: block;
+    
+}
+
+.divButton a:hover{
+    color: #4574FF ;
+}
+
+#about{
+    background-image: url("../images/background1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+
+}
+
+#authors{
+    background-image: url("../images/background3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+#books{
+    background-image: url("../images/background2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+
+#report{
+    background-image: url("../images/background4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+
+/* home page ends */
+
+
+
+/* ------------------------------------------------------- */
+
+
+/* about page starts  */
+
+
+
+.navMobileFirst ul{
+    padding: 0%;
+}
+
+.navMobileFirst li {
+    width: 98%;
+    border: 3px solid white;
+    padding:.5%;
+    background-color: rgba(12, 12, 12, 0.4);
+}
+
+/* 
+Here I was actually experimenting with backgrounds, childs and parents, the result was something unespected but I really liked, It applied the same background image to all list elementsas a part of one, I tried the same result removing some code, but nothing worked so I left it as is.*/
+.navMobileFirst:nth-child(1){
+    background: url("../images/background1.jpg") ;
+
+}
+
+.navMobileFirst:nth-child(2){
+    background: url("../images/background1.jpg") ;
+
+}
+
+.navMobileFirst:nth-child(3){
+    background: url("../images/background1.jpg") ;
+
+} 
+
+.navMobileFirst:nth-child(4){
+    background: url("../images/background1.jpg") ;
+    background-position-x: left;
+    background-position-y: center ;
+
+}
+
+
+
+
+.navMobileFirst a{
+    color: white;
+}
+
+
+
+.mainAbout{
+    background: black;
+    color: white;
+    margin-bottom: 0%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.mainAbout h2 {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 200%;
+}
+
+
+.mainAbout p {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%; 
+    font-size: 100%;
+}
+
+.mainAbout figure {
+    margin-bottom: 0%;
+    font-size: 150%;
+}
+
+.mainAbout blockquote {
+    margin-bottom: 0%;
+}
+
+
+/* I have to make a quick search about how to resize google embeded maps, I found this solution online at https://www.ostraining.com/blog/coding/responsive-google-maps/  */
+
+.maps{
+    overflow:hidden;
+    padding-bottom:30%;
+    position:relative;
+    height:0;
+}
+
+.maps iframe{
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+}
+
+/* about page ends */
+
+
+/* ------------------------------------------------------- */
+
+
+
+/* authors page starts  */
+
+.navAuthors:nth-child(1){
+    background: url("../images/background3.jpg") ;
+
+}
+
+.navAuthors:nth-child(2){
+    background: url("../images/background3.jpg") ;
+
+}
+
+.navAuthors:nth-child(3){
+    background: url("../images/background3.jpg") ;
+
+} 
+
+.navAuthors:nth-child(4){
+    background: url("../images/background3.jpg") ;
+    background-position-x: left;
+    background-position-y: center;
+
+}
+
+.sectionAuthors{
+    padding-bottom: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.authorDescription {
+    text-align: justify;
+}
+
+
+.picture img{
+    width: 50vw;
+}
+
+.buttonAuthors{
+    background: rgba(0, 3, 4,  0.75);
+    width: 20vw;
+    border-radius: 30px;
+    border: 3px solid black;
+    margin-top: 0%;
+    margin-right: 35%;
+    margin-left: 35%;
+    padding:1%;
+}
+
+.sectionAuthors div a{
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 100%;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.sectionAuthors div a:hover{
+    color: #648BFF;
+}
+
+
+/* authors page ends  */
+
+
+/* ------------------------------------------------------- */
+
+/* Bio pages starts  */
+
+.navBioWriters ul{
+padding: 0%;
+}
+
+
+.navBioWriters li{
+    width: 100%;
+    border: 3px solid white;
+    padding:.5%;
+    background-color: rgba(0, 3, 4,  0.75);
+}
+
+
+.navBioWriters li a{
+    color: white;
+}
+
+
+.mainBioWriters{
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 15%;
+    
+}
+
+.mainBioWriters p {
+    text-align: justify;
+}
+
+
+.buttonAuthors{
+    background: rgba(0, 3, 4,  0.75);
+    width: 30%;
+    border-radius: 20px;
+    border: 3px solid black;
+    margin-bottom: 5%;
+    margin-right: 35%;
+    margin-left: 35%;
+    padding:1%;
+    text-align: center;
+}
+
+.buttonAuthors a{
+    display: block;
+    color: white;
+}
+
+.buttonAuthors a:hover{
+    color: #648BFF;
+}
+
+
+.mainBioWriters img{
+    width: 60vw;
+
+}
+
+/* Bio pages ends */
+
+
+/* ------------------------------------------------------- */
+
+
+
+/* books page starts  */
+
+.booksNav:nth-child(1){
+    background: url("../images/background2.jpg") ;
+
+}
+
+.booksNav:nth-child(2){
+    background: url("../images/background2.jpg") ;
+
+}
+
+.booksNav:nth-child(3){
+    background: url("../images/background2.jpg") ;
+
+} 
+
+.booksNav:nth-child(4){
+    background: url("../images/background2.jpg") ;
+    background-position-x: center;
+    background-position-y: center;
+
+}
+
+
+/* books page ends */
+
+
+
+/* ------------------------------------------------------- */
+
+/* report page starts  */
+
+
+.mainReport{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+}
+
+.mainReport a{
+    color: black;
+}
+
+.mainReport li{
+    margin-bottom: 3%;
+}
+
+.mainReport h1, .mainReport h2, .mainReport h3{
+    margin-top: 7%;
+    margin-bottom: 0%;
+}
+
+.mainReport a:hover{
+    color: #0172B3;
+}
+
+.reportNav:nth-child(1){
+    background: url("../images/background4.jpg") ;
+
+}
+
+.reportNav:nth-child(2){
+    background: url("../images/background4.jpg") ;
+
+}
+
+.reportNav:nth-child(3){
+    background: url("../images/background4.jpg") ;
+
+} 
+
+.reportNav:nth-child(4){
+    background: url("../images/background4.jpg") ;
+    background-position-x: center;
+    background-position-y: center;
+
+}
+
+
+
+.allerta{
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: large;
+}
+
+.cinzel{
+    font-family: 'Cinzel', serif;
+    font-size: small;
+}
+
+.helvetica{
+    font-family: Helvetica, Arial, sans-serif;
+}
+.copyright{
+    margin-top: 15%;
+}
+
+.copyright ul{
+    padding-left: 10%;
+}
+
+.copyright ul li{
+    text-align: left;
+    margin-top: 7%;
+}
+
+.covers{
+    margin-top: 5%;
+}
+
+.mainReport a:link{
+    color: #027091;
+}
+
+.mainReport a:visited{
+    color: #02782A;
+}
+
+
+.mainReport a:hover{
+     color: red;
+}
+
+/* report page ends */
+
+
+/* ------------------------------------------------------- */
+
+
+
+footer{
+    width: 100%;
+    background-color: black;
+    bottom: 0px;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 1%;
+
+}
+
+footer p{
+    color: white;
+    margin-top: 0px;
+    font-size: x-small;
+}
+
+
+
+
+/* //////////////////////////////////////////////////// */
+
+/* LARGER SCREENS STYLE THOURGHT MEDIA QUERY */
+
+
+@media only screen and (min-width: 720px){
+
+    /* Home page large screen starts */
+
+    header{
+    padding-top: 0%;
+    padding-bottom: 0%;
+
+    } 
+
+    header h1{
+        width: 80%;
+        font-size: 500%;
+        float: right;
+        margin-right: 8%;
+
+    }   
+
+
+    header h2{
+        width: 83%;
+        margin-right: 8%;
+        margin-left: 8%;
+        padding-top: 0%;
+        padding-bottom: 0.5%;
+        margin-top: 0%;
+        } 
+
+
+    .brand{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    }
+
+    .sectionBox h3 {
+        font-size: x-large;
+    }
+
+
+    
+    .logo{
+        display: inline-block;
+        width: 10%;
+    }
+
+    /* Home page large screen ends */
+
+    /* the menu of home page is diferent than the other sections, the first one hides when mobile, while the section one display a background, I tried to make the code as clear as posible */
+
+
+    /* Menus large screens style starts */
+    .menuHidden, .navMobileFirst, .navBioWriters{
+        display: block;
+        margin-bottom: 0%;   
+        background: rgba(12,12,12, 0.9);
+        height: 40px;
+    }
+
+    .navMobileFirst{
+        border-bottom: .03px solid white;
+    }
+
+    .navAuthors ul, .navMobileFirst ul {
+        background: rgba(0, 3, 4,  0.6);
+        width: 100%;
+        height: 90%;
+    }
+
+    .menuHidden ul, .navMobileFirst ul, .navBioWriters ul{
+    
+        margin-bottom: 0%;
+        margin: 0%;
+        padding: 0%;
+        padding-top: .5%;
+
+    }
+
+    .menuHidden li, .navMobileFirst li, .navBioWriters li{
+        display: inline;
+        margin-right: 3%;
+        margin-left: 3%;
+        font-size: 100%;
+    } 
+
+    .navMobileFirst li, .navBioWriters li {
+        border: none;
+        background: none;
+    }
+
+
+    .menuHidden li a, .navMobileFirst li a, .navBioWriters li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    
+    }
+
+    .menuHidden li a:hover, .navMobileFirst li a:hover, .navBioWriters li a:hover{
+        color: red;
+    }
+
+    /* Menus large screen style ends */
+
+    /* Authors large screen section starts */
+
+    .sectionAuthors{
+        padding-top: 3%;
+    }
+
+    .mainBioWriters{
+        margin-top: 2%;
+    }
+
+    .picture img{
+        width: 30vw;
+    }
+ 
+    .mainAbout h2{
+        font-size: 300%;
+    }
+
+    .mainAbout p{
+        font-size: 200%;
+        text-align: justify;
+    }
+
+
+    /* Authors large screen section ends */
+
+}
+
+/* I had to add another Query screen because the adjustment of the menu, i didn't want the buttons too separate each other when a larger screen   */
+@media only screen and (min-width: 1040px){
+    .menuHidden li{
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+
+ /* I had a really bad time triying to styiling the writter section, but I came across with display:flex and did exactly what I wanted to do    */
+
+    .sectionAuthors{
+        display: inline-flex;
+    }
+
+    .sectionAuthors p{
+        font-size: x-large;
+    }
+
+    
+    .flexible{
+        margin-left: 3%;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    .flexible p{
+        flex: 2;
+    }
+    
+
+    .lxMainBioWriters{
+        display: inline-flex;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        vertical-align: middle;
+    }
+
+    .lxMainBioWriters img{
+
+        height: 100%;
+        margin:auto;
+     
+    }
+
+    .lxMainBioWriters p{
+        font-size: x-large;
+    }
+
+    .booksCovers{
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+    .mainBioWriters{
+        flex-basis: 40%;
+    }
+
+    .booksCovers p{
+        font-size: large;
+        text-align: center;
+    }
+
+    .booksCovers img{
+        width: 200px;
+    }
+
+
+    .mainReport{
+        font-size: x-large;
+    }
+
+    .copyright{
+        margin-top: 5%;
+    }
+
+    .copyright ul li{
+        margin-top: 3%;
+    }
+
+
+}
+
+/* style for larger screens ends  */
+
+
+
+
+
+
+/* /////////////////////////////////////////////////////// */
+
+
+
+/* PRINT STYLE START  */
+
+@media print{
+
+
+    /* I set a default margin for prints */
+
+    @page{
+        margin: 25mm;
+    }
+
+    
+
+    header{
+         font-size: x-large; 
+    }
+
+
+    .logo{
+        width: 10%;
+    }
+
+
+    /* Removed unnecesary images and backgrounds */
+
+    body, #about, #authors, #report, #books, .divButton, .sectionBox, .mainAbout, .sectionBox:hover{
+        background: none;
+        border: none;
+    }
+
+
+    .sectionBox{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sectionBox h1, .sectionBox h3, .mainAbout h2, .mainAbout p,.mainAbout cite, .mainAbout blockquote{
+        color: black;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .mainAbout h2, .mainAbout p, .mainAbout figure{
+        font-size: x-large;
+    }
+
+    .mainAbout h2{
+        margin-bottom: 5%;
+    }
+
+    picture{
+        margin-top: 5%;
+    }
+
+    .picture img, .mainBioWriters img{
+        width:50%;
+    }
+
+   /* Hide some elements that should not be in a print copy  */
+
+    .navMobileFirst, .maps, .direction, .buttonAuthors, footer, .buttonAuthors a, .navBioWriters, .brandWriters, .buttonAuthors, .booksCovers img{
+        display: none;
+    }
+
+
+
+    .copyright{
+        margin-top: 3%;
+    }
+
+    .copyright ul li{
+        margin-top: 1%;
+    }
+
+
+    .mainReport a:link, .mainReport a:visited, .mainReport a:hover{
+        color:black;
+    }
+    
+
+
+
+}
+
+
+/* print style ends */

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <link rel="icon" href="../images/Icon.png"/>
+  <title>Ouroboros Publishing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&amp;family=Cinzel:wght@700;900&amp;display=swap" rel="stylesheet"/> <!--I had too much problems with Google fonts, it seems that the link contains & (ampersand) which needs to be escaped in order to use it with xhtml-->
+
+  <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+  <!-- This first section header will contain the name of the company and the section navigation system, each section will later drive to other pages-->
+<header>
+  <h1 class="brand">Ouroboros Publishing</h1>
+  <a href="../index.xhtml"><img class="logo" src="../images/Logo.png" alt="Ouroboros Publishing"/></a>
+  <h2 class="brand">Ray Bradbury</h2>
+
+
+  <nav class="navBioWriters"> <!-- the idea for diferent classes is for changing the background image, however do it by javascript code would be better, but in this case I'm just using css -->
+    <ul>
+      <li><a href="../index.xhtml">Home</a></li>
+      <li><a href="../pages/about.xhtml">About Ouroboros</a></li>
+      <li><a href="../pages/authors.xhtml">Authors</a></li>
+      <li><a href="../pages/books.xhtml">Best sellers</a></li>
+      <li><a href="../pages/report.xhtml">Report</a></li>
+    </ul>
+  </nav>
+</header>  
+<!-- end of the first "section" navigation system -->
+
+<main class="mainBioWriters lxMainBioWriters">
+    <img src="../images/rayBradbury2.jpg" alt="Ray Bradbury, 1957"/>
+    <div class="flexible">
+    <h1>Ray Bradbury</h1>
+    <h3>(22 August 1920 – 05 June 2012)</h3>
+    <p>
+        American author best known for his highly imaginative short stories and novels that blend a poetic style, nostalgia for childhood, social criticism, and an awareness of the hazards of runaway technology.
+        <br/>
+        In the mid-1940s Bradbury’s stories started to appear in major magazines such as The American Mercury, Harper’s, and McCall’s, and he was unusual in publishing both in pulp magazines such as Planet Stories and Thrilling Wonder Stories and “slicks” (so-called because of their high-quality paper) such as The New Yorker and Collier’s without leaving behind the genres he loved. The Martian Chronicles (1950), a series of short stories, depicts Earth’s colonization of Mars, which leads to the extinction of an idyllic Martian civilization. However, in the face of an oncoming nuclear war, many of the settlers return to Earth, and after Earth’s destruction, a few surviving humans return to Mars to become the new Martians. The short-story collection The Illustrated Man (1951) included one of his most famous stories, “The Veldt,” in which a mother and father are concerned about the effect their house’s simulation of lions on the African veldt is having on their children.
+    </p>
+    </div>
+</main>
+
+<!-- 
+    I know it seems like over Div in this section but my idea was to create this divs to be able to take the whole book portion to another extra section called "best sellers", otherwhise I would srtucture the XHTML like I did in the whole website.  -->
+<div class="booksCovers">
+<div class="mainBioWriters">
+    <div>
+        <img src="../images/fahreinheit.jpg" alt="Fahrenheit 451"/>
+    </div>
+    <div>
+        <h2>Fahrenheit 451</h2>
+        <h3>Ray Bradbury - 1953</h3>
+    </div>
+    <div>
+        <p>
+            The story takes place in an unspecified city in a distant future. The protagonist, Guy Montag, is a fireman whose job is to burn down houses in which books have been discovered. After leaving work one day, he meets Clarisse, a teenaged girl who enjoys nature and asks if he is happy. At home, he finds that his wife, Mildred, has swallowed a bottle of sleeping pills in a suicide attempt. After he calls for help, two men arrive and revive her. Later, when the firemen are sent to burn down the house of an elderly woman, Montag takes her Bible—an act that he thinks his hand has undertaken on its own—and the woman chooses to die with her books. Montag begins to have doubts about his mission, and the next day he stays home from work.
+        </p>
+    </div>
+    
+</div>
+
+<div class="mainBioWriters">
+    <div>
+        <img src="../images/martian.jpg" alt="he Martian Chronicles"/>
+    </div>
+    <div>
+        <h2>The Martian Chronicles</h2>
+        <h3>Ray Bradbury - 1950</h3>
+    </div>
+    <div>
+        <p>
+            The Martian Chronicles is a 1950 science fiction short story which tells about the colonization of Mars by humans fleeing from a troubled and eventually atomically devastated Earth, and the conflict between aboriginal Martians and the new colonists. The book lies somewhere in between a short story collection and an episodic novel, containing stories originally published in the late 1940s in science fiction magazines. The stories were loosely woven together with a series of short, interstitial vignettes for publication.
+        </p>
+    </div>
+    
+</div>
+
+<div class="mainBioWriters">
+    <div>
+        <img src="../images/illustratedMan.jpg" alt="The Illustrated Man"/>
+    </div>
+    <div>
+        <h2>The Illustrated Man</h2>
+        <h3>Ray Bradbury -1951</h3>
+    </div>
+    <div>
+        <p>
+            The unrelated stories are tied together by the frame device of "The Illustrated Man", a vagrant former member of a carnival freak show with an extensively tattooed body whom the unnamed narrator meets. The man's tattoos, allegedly created by a time-traveling woman, are individually animated, and each tells a different tale. A recurring theme throughout the eighteen stories is the conflict of the cold mechanics of technology and the psychology of people.
+        </p>
+    </div>
+    
+</div>
+
+<div class="mainBioWriters">
+    <div>
+        <img src="../images/halloween.jpg" alt="The Halloween Tree"/>
+    </div>
+    <div>
+        <h2>The Halloween Tree</h2>
+        <h3>Ray Bradbury - 1972</h3>
+    </div>
+    <div>
+        <p>
+            A group of eight boys set out to go trick-or-treating on Halloween, only to discover that a ninth friend, Pipkin, has been whisked away on a journey that could determine whether he lives or dies. Through the help of a mysterious character named Carapace Clavicle Moundshroud, they pursue their friend across time and space through Ancient Egyptian, Ancient Greek, and Ancient Roman cultures, Celtic Druidism, the Notre Dame Cathedral in Medieval Paris, and The Day of the Dead in Mexico.
+        </p>
+    </div>
+    
+</div>
+</div>
+
+<div class="buttonAuthors"><a href="authors.xhtml">Go to Authors</a></div>
+
+
+<footer>
+  <p>Copyright &#169; Mario Campos</p>
+</footer> 
+</body>
+</html>

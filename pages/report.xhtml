@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <link rel="icon" href="../images/Icon.png"/>
+  <title>Ouroboros Publishing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&amp;family=Cinzel:wght@700;900&amp;display=swap" rel="stylesheet"/> <!--I had too much problems with Google fonts, it seems that the link contains & (ampersand) which needs to be escaped in order to use it with xhtml-->
+
+  <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+  <!-- This first section header will contain the name of the company and the section navigation system, each section will later drive to other pages-->
+<header>
+  <h1 class="brand">Ouroboros Publishing</h1>
+  <a href="../index.xhtml"><img class="logo" src="../images/Logo.png" alt="Ouroboros Publishing"/></a>
+  <h2 class="brand">Report</h2>
+
+
+  <nav class="navMobileFirst reportNav">
+    <ul>
+      <li><a href="../index.xhtml">Home</a></li>
+      <li><a href="../pages/about.xhtml">About Ouroboros</a></li>
+      <li><a href="../pages/authors.xhtml">Authors</a></li>
+      <li><a href="../pages/books.xhtml">Best sellers</a></li>
+      <li><a href="../pages/report.xhtml">Report</a></li>
+    </ul>
+  </nav>
+</header>
+<!-- end of the first "section" navigation system -->
+
+
+<main class="mainReport">
+  <h2>Design</h2>
+  <p>
+    For Ouroboros Publishing House, I have decided to focus on a classic retro-design, I wanted to refer the users to the feeling of being reading an old Sci-Fi book. The combination of clean black and white, with retro sci-fi art, makes this website and business a very specialized kind of publishing house.
+  </p>
+  <p>
+    Despite the use of images as background, is not considered the best practice for website design. I decided to start the home page in this way. It is very well known the massive importance of art images, book covers and drawings in speculative fiction, so the first objective of this website was trying to simulate holding an old Sci-Fi book with retro art as cover. <i><a href="https://www.youtube.com/watch?v=M7Qm_UJML54" target="_blank">Click here if you want to know a little bit more of The history of Art in Sci-Fi Book Covers</a></i> I also have applied a hover with aplha when the section is focused, in this way text is not lost for the image.
+  </p>
+  <p>
+    Apart from the home page that is made from big image-background sections, I tried to keep every other page as clear and tidy as possible, specially the authors and writter pages, where a lot of information has to be read.
+  </p>
+  <p>
+    This website meets the criteria of the new web standards, its build with the markup language XHTML, which is more strict with the way the browsers read the tags. I also have used CSS3. I have avoided using Javascript for this particular website.
+  </p>
+  <h3>Mobile Design</h3>
+  <p>
+    The home page serves as a big graphic menu, ready to be scrolled down. Each section has a personal background which identifies with the topic is referring to. When a page is accessed, the navigation menu will display the same background image as the section on the home page. In this way, the user is visually linked to every different page of the website.
+    <br/>
+    <br/>
+    I have not used a drop-down menu because of the lack of javascript in the code, I have tried to make it intuitive and according to the design.  
+  </p>
+
+  <h3>Browser Design</h3>
+  <p> 
+    The website has been built with the mobile-first philosophy, that means the first design development was made for small devices. However, it is responsive and design changes in larger screens. The home page displays a navigation menu, the authors and books have been placed horizontally rather than vertical, and the images show a lot more detail in bigger screens.  
+  </p>
+
+
+  <h2>Typography</h2>
+  <p>
+    As I commented in the code, I have struggled a lot, trying to link the fonts from an external source such as <a href="https://google.com" target="_blank">Google Fonts</a>. Due to my decision to use XHTML instead of html5, the link provided by <a href="https://google.com" target="_blank">google</a> did not work well. After extensive research, I found out that the problem was the use of the reserved character "ampersand" which had to be escaped. I have used three different fonts on the website:
+  </p>
+  <ul>
+        <li class="allerta">Google font Allerta for H1 headers</li>
+        <li class="cinzel">Google font Cinzel for H2 headers</li>
+        <li class="helvetica">Helvetica for general content</li>
+  </ul>
+  <h2>Images</h2>
+  <p>
+    Some images used on this website might be protected by copyright. They belong to the original artist or creators; this website is only for academic purposes. I will reference every image and information used on this website in the reference section. However, most of the pictures were downloaded from free-use libraries.
+
+    I also have modified the size of the images making them "web-friendly" reducing the weight through photoshop. 
+  </p>
+
+  <h2>Logo</h2>
+  <p>
+    The logo has been drawn on illustrator and saved in png format with alpha. It refers to the main subject in Sci-fi; Universe and a serpent eating its own tail as the ancient symbol of The Ouroboros.
+  </p>
+  
+  <h2>Development Issues</h2>
+  <p>
+    I have encountered different problems during the website development, due to lack of experience or sometimes knowledge. I have tried to meet the necessary standards for a good website. I have commented those issues in different parts of the code but I also have commented explanations of usage for many elements. 
+  </p>
+
+  <h2>Copyright</h2>
+  <p>
+    The information about authors and books has been retrieved from specialized websites, and it belongs to the original creators. 
+  </p>
+
+  <!-- I have some problems with the element of the unordered list in this section, when I was placing the links of the references, my entire mobile design collapsed, the global padding was no longer affecting the <li> elements, some larger links were forcing the margins of the whole website making it look terrible. After a quick search, I realized the problem was the lack of spaces, large links contains a huge amount of characters whitout any space, so in those lines the break line point was until the end of actual link. I'have solve this problem indicating the browser when breake a line with the special character hyphen (-), the only problem is that some link are diferrent in wrtting than the actual anchor href, but it is jut a visual difference as the links to external sites are working just fine.    -->
+
+  <h2>List of References</h2>
+  <p>
+    Below a list of clickable links about information of each author and the websites from which it was taken:
+  </p>
+
+  <!--I have added  _blank target attribute to all the links, I find really anoying when the websites open the link in the same tab-->
+
+
+   <!--For this section I have orginized the references and link by author, so all information regarding to an specific author is in one place, I also refrenced extra information in the "other important information section"-->
+
+  <div class="copyright">
+    <h4>Aldous Huxley</h4>
+    <h5>Information, Books and Biography:</h5>
+    <ul>
+      <li><a href="https://www.britannica.com/biography/Aldous-Huxley" target="_blank">https://www.britannica.com/ biography/Aldous-Huxley</a></li>
+
+
+      <li><a href="https://en.wikipedia.org/wiki/Aldous_Huxley_bibliography" target="_blank">https://en.wikipedia.org/wiki/  Aldous-Huxley-bibliography</a></li>
+
+      <li><a href="https://www.britannica.com/topic/Eyeless-in-Gaza" target="_blank">https://www.britannica.com/topic/ Eyeless-in-Gaza</a></li>
+
+      <li><a href="https://www.britannica.com/topic/Brave-New-World" target="_blank">https://www.britannica.com/topic/ Brave-New-World</a></li>
+
+      <li><a href="
+        https://en.wikipedia.org/wiki/The_Doors_of_Perception" target="_blank">
+        https://en.wikipedia.org/wiki/The-Doors-of-Perception</a></li>
+
+        <li><a href="https://en.wikipedia.org/wiki/Point_Counter_Point" target="_blank">https://en.wikipedia.org/wiki/ Point_Counter_Point</a></li> 
+
+    </ul>
+
+
+
+    <h5 class="covers">Images, Book Covers and Pictures:</h5>
+    <ul>
+      <li><a href="https://www.newyorker.com/magazine/2003/03/17/aldous-huxley-short-of-sight" target="_blank">https://www.newyorker.com/ magazine/ 2003/03/17/aldous-huxley-short-of-sight</a></li>
+
+      <li><a href="https://200.hc.com/timeline/1927-harper-brothers-signs-aldous-huxley-author-of-brave-new-world/" target="_blank">https://200.hc.com/timeline/1927-harper-brothers-signs-aldous-huxley-author-of-brave-new-world/</a></li>
+
+      <li><a href="https://www.imdb.com/title/tt0095738/mediaviewer/rm180754944" target="_blank">Eyeless in Gaza book cover on: "https://elephantbookstore.com/ en/books/ fiction/aldous-huxley-eyeless-in-gaza-p12687c203c478.html"</a></li>
+
+      <li><a href="https://www.redbubble.com/i/greeting-card/Brave-New-World-First-Edition-Book-Cover-by-buythebook86/33945645.5MT14" target="_blank">Brave new World book cover on: "https://www.redbubble.com/i/ greeting-card/Brave-New-World-First-Edition-Book-Cover-by-buythebook86/33945645.5MT14"</a></li>
+
+      <li><a href="https://www.pinterest.com.mx/pin/150026231307050012/" target="_blank">The Doors of Perception book cover on: "https://www.pinterest.com.mx/pin/    150026231307050012/"</a></li>
+
+      <li><a href="https://www.pinterest.com.mx/pin/150026231307050012/" target="_blank">Point counter Point book cover on: "https://www.penguin.com.au/ books/point-counter-point- 9781409079378"</a></li>
+    </ul>
+  </div>
+
+
+
+
+
+
+
+  <div class="copyright">
+    <h4>Isaac Asimov</h4>
+    <h5>Information, Books and Biography:</h5>
+    <ul>
+      <li><a href="https://www.britannica.com/biography/Isaac-Asimov" target="_blank">https://www.britannica.com/ biography/-Isaac-Asimov</a></li>
+
+      <li><a href="https://www.britannica.com/topic/I-Robot" target="_blank">https://www.britannica.com/ topic/I-Robot</a></li>
+
+      <li><a href="https://www.britannica.com/topic/Foundation-by-Asimov" target="_blank">https://www.britannica.com/topic/ Foundation-by-Asimov</a></li>
+
+      <li><a href="https://en.wikipedia.org/wiki/Isaac_Asimov#Selected_bibliography" target="_blank">https://en.wikipedia.org/wiki/ IsaacAsimov-Selected_bibliography</a></li>
+
+
+      <li><a href="https://en.wikipedia.org/wiki/Nightfall_(Asimov_novelette_and_novel)" target="_blank">https://en.wikipedia.org/wiki/ Nightfall-(Asimov_novelette_and_novel)</a></li>
+
+      <li><a href="https://en.wikipedia.org/wiki/Foundation_series" target="_blank">https://en.wikipedia.org/wiki/ Foundation-series</a></li>
+
+      <li><a href="https://en.wikipedia.org/wiki/I,_Robot" target="_blank">https://en.wikipedia.org/wiki/ I,_Robot</a></li>
+
+      <li><a href="https://en.wikipedia.org/wiki/The_End_of_Eternity" target="_blank">https://en.wikipedia.org/wiki/ The_End_of_Eternityt</a></li>
+    </ul>
+
+
+
+    <h5 class="covers">Images, Book Covers and Pictures:</h5>
+    <ul>
+      <li><a href="https://economicsociology.org/2020/04/09/isaac-asimov-on-the-thrill-of-learning-and-the-peril-of-ignorance/" target="_blank">https://economicsociology.org/ 2020-04-09/isaac-asimov-on-the-thrill-of-learning-and-the-peril-of-ignorance/</a></li>
+
+      <li><a href="https://www.syfy.com/syfywire/what-isaac-asimov-got-right-and-wrong-about-year-2014-1964" target="_blank">https://www.syfy.com/syfywire/ what-isaac-asimov-got-right-and-wrong-about-year-2014-1964</a></li>
+
+      <li><a href="https://www.imdb.com/title/tt0095738/mediaviewer/rm180754944" target="_blank">Nightfall book cover on: "https://www.imdb.com/-title/tt0095738/mediaviewer/ rm180754944"</a></li>
+
+      <li><a href="https://www.etriggerz.com/products/mpsc-ai6586-u?utm_source=pinterest&amp;utm_medium=social" target="_blank">I, Robot book cover on: "https://www.etriggerz.com/ products/mpsc-ai6586-u?utm_source=pinterestutm_ medium=social"</a></li>
+
+      <li><a href="https://www.pinterest.com.mx/pin/143481938098524118/" target="_blank">Foundation book cover on: "https://www.pinterest.com.mx/ pin/ 143481938098524118/"</a></li>
+
+      <li><a href="https://www.pinterest.com.mx/pin/536491374356137083/" target="_blank">The End of Eternity book cover on: "https://www.pinterest.com.mx/pin/ 536491374356137083/"</a></li>
+    </ul>
+  </div>
+
+
+
+
+
+  <div class="copyright">
+    <h4>Ray Bradbury</h4>
+    <h5>Information, Books and Biography:</h5>
+    <ul>
+      <li><a href="https://www.britannica.com/biography/Ray-Bradbury#ref189630" target="_blank">https://www.britannica.com/ biography/ Ray-Bradbury#ref189630</a></li>
+
+      <li><a href="https://en.wikipedia.org/wiki/Ray_Bradbury" target="_blank">https://en.wikipedia.org/wiki/ Ray-Bradbury</a></li>
+
+      <li><a href="https://www.britannica.com/topic/Fahrenheit-451-novel-by-Bradbury" target="_blank">https://www.britannica.com/ topic/Fahrenheit-451-novel-by-Bradbury</a></li>
+
+      <li><a href="https://en.wikipedia.org/wiki/The_Martian_Chronicles" target="_blank">https://en.wikipedia.org/wiki/ The_Martian_Chronicles</a></li>
+
+      <li><a href="https://en.wikipedia.org/wiki/The_Illustrated_Man" target="_blank">https://en.wikipedia.org/wiki/ The-Illustrated-Man</a></li>
+
+      <li><a href="https://en.wikipedia.org/wiki/The_Halloween_Tree" target="_blank">https://en.wikipedia.org/wiki/ The_Halloween_Tree</a></li>
+
+
+    </ul>
+
+
+
+    <h5 class="covers">Images, Book Covers and Pictures:</h5>
+    <ul>
+      <li><a href="https://www.britannica.com/biography/Ray-Bradbury/images-videos" target="_blank">https://www.britannica.com/ biography/Ray-Bradbury/images-videos</a></li>
+
+
+      <li><a href="https://www.amazon.com/Fahrenheit-451-Ray-Bradbury/dp/1451673310" target="_blank">Fahrenheit 451 book cover on: "https://www.amazon.com/ Fahrenheit-451-Ray-Bradbury/dp/1451673310"</a></li>
+
+      <li><a href="https://litube.net/ray-bradbury/31595-the_martian_chronicles.html" target="_blank">The Martian Chronicles book cover on: "https://litube.net/ray-bradbury/31595-the_martian_chronicles.html"</a></li>
+
+      <li><a href="https://www.flickr.com/photos/x-ray_delta_one/7350507842" target="_blank">The Illustrated Man book cover on: "https://www.flickr.com/photos/x-ray_delta_one/7350507842"</a></li>
+
+      <li><a href="https://halloweendailynews.com/2020/06/warner-bros-ray-bradburys-halloween-tree/" target="_blank">https://halloweendailynews.com/ 2020/06/ warner-bros-ray-bradburys-halloween-tree/"</a></li>
+      
+    </ul>
+  </div>
+
+
+  <div class="copyright">
+    <h4>Some Other Important Information</h4>
+    <ul>
+      <li><a href="https://cft.vanderbilt.edu/wp-content/uploads/sites/59/Image_resolutions.pdf" target="_blank">https://cft.vanderbilt.edu/wp-content/uploads/ sites/59/Image_resolutions.pdf</a></li>
+
+      <li><a href="https://stackoverflow.com/questions/23422316/xml-validation-error-entityref-expecting" target="_blank">https://stackoverflow.com/questions/ 23422316/xml-validation-error-entityref-expecting</a></li>
+
+      <li><a href="https://developer.mozilla.org/en-US/" target="_blank">https://developer.mozilla.org/en-US/</a></li>
+
+      <li><a href="https://www.w3schools.com/" target="_blank">https://www.w3schools.com/</a></li>
+
+      <li><a href="https://htmlcolorcodes.com/" target="_blank">https://htmlcolorcodes.com/</a></li>
+
+      <li><a href="https://css-tricks.com/when-a-line-doesnt-break/" target="_blank">https://css-tricks.com/when-a-line-doesnt-break/</a></li>
+
+    </ul>
+
+
+
+    <h5 class="covers">Bakgrounds and wallpapers:</h5>
+    <ul>
+      <li><a href="https://wallpaperaccess.com/retro-sci-fi-art-1920x1080" target="_blank">https://wallpaperaccess.com/retro-sci-fi-art-1920x1080</a></li>
+    </ul>
+
+    
+  </div>
+
+</main>
+
+
+<footer>
+  <p>Copyright &#169; Mario Campos</p>
+</footer> 
+</body>
+</html>

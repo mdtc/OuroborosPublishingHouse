@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <link rel="icon" href="../images/Icon.png"/>
+  <title>Ouroboros Publishing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&amp;family=Cinzel:wght@700;900&amp;display=swap" rel="stylesheet"/> <!--I had too much problems with Google fonts, it seems that the link contains & (ampersand) which needs to be escaped in order to use it with xhtml-->
+
+  <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+  <!-- This first section header will contain the name of the company and the section navigation system, each section will later drive to other pages-->
+<header>
+  <h1 class="brand">Ouroboros Publishing</h1>
+  <a href="../index.xhtml"><img class="logo" src="../images/Logo.png" alt="Ouroboros Publishing"/></a>
+  <h2 class="brand brandWriters">Aldous Huxley</h2>
+
+
+  <nav class="navBioWriters"> <!-- the idea for diferent classes is for changing the background image, however do it by javascript code would be better, but in this case I'm just using css -->
+    <ul>
+      <li><a href="../index.xhtml">Home</a></li>
+      <li><a href="../pages/about.xhtml">About Ouroboros</a></li>
+      <li><a href="../pages/authors.xhtml">Authors</a></li>
+      <li><a href="../pages/books.xhtml">Best sellers</a></li>
+      <li><a href="../pages/report.xhtml">Report</a></li>
+    </ul>
+  </nav>
+</header> 
+<!-- end of the first "section" navigation system -->
+
+<main class="mainBioWriters lxMainBioWriters">
+    <img src="../images/aldousHuxley2.jpg" alt="Aldous Huxley, 1945"/>
+    <div class="flexible">
+        <h1>Aldous Huxley</h1>
+        <h3>(26 July 1894 – 22 November 1963)</h3>
+        <p>
+            English novelist and critic gifted with an acute and far-ranging intelligence whose works are notable for their wit and pessimistic satire. He remains best known for one novel, Brave New World (1932), a model for much dystopian science fiction that followed. Huxley established himself as a major author with his first two published novels, Crome Yellow (1921) and Antic Hay (1923); these are witty and malicious satires on the pretensions of the English literary and intellectual coteries of his day. Those Barren Leaves (1925) and Point Counter Point (1928) are works in a similar vein.
+            <br/>
+            Brave New World (1932) marked a turning point in Huxley’s career: like his earlier work, it is a fundamentally satiric novel, but it also vividly expresses Huxley’s distrust of 20th-century trends in both politics and technology. The novel presents a nightmarish vision of a future society in which psychological conditioning forms the basis for a scientifically determined and immutable caste system that, in turn, obliterates the individual and grants all control to the World State.
+        </p>
+    </div>
+</main>
+
+<!-- 
+    I know it seems like over Div in this section but my idea was to create this divs to be able to take the whole book portion to another extra section called "best sellers", otherwhise I would srtucture the XHTML like I did in the whole website.  -->
+<div class="booksCovers">
+    <div class="mainBioWriters">
+    <div> 
+        <img src="../images/world.jpg" alt="Brave New World"/>
+    </div>
+    <div>
+        <h2>Brave New World</h2>
+        <h3>Aldous Huxley - 1932</h3>
+    </div>
+    <div>
+        <p>
+            Huxley begins the novel by thoroughly explaining the scientific and compartmentalized nature of this society, beginning at the Central London Hatchery and Conditioning Centre, where children are created outside the womb and cloned in order to increase the population.
+            The novel examines a futuristic society, called the World State, that revolves around science and efficiency. In this society, emotions and individuality are conditioned out of children at a young age, and there are no lasting relationships because “every one belongs to every one else” (a common World State dictum).
+        </p>
+    </div>
+    
+</div>
+
+<div class="mainBioWriters">
+    <div>
+        <img src="../images/doors.jpg" alt="The Doors of Perception"/>
+    </div>
+    <div>
+        <h2>The Doors of Perception</h2>
+        <h3>Aldous Huxley - 1954</h3>
+    </div>
+    <div>
+        <p>
+            Huxley recalls the insights he experienced, ranging from the "purely aesthetic" to "sacramental vision", and reflects their philosophical and psychological implications his psychedelic experience under the influence of mescaline.
+        </p>
+    </div>
+    
+</div>
+
+<div class="mainBioWriters">
+    <div>
+        <img src="../images/gaza.jpg" alt="Eyeless in Gaza"/>
+    </div>
+    <div>
+        <h2>Eyeless in Gaza</h2>
+        <h3>Aldous Huxley -1936</h3>
+    </div>
+    <div>
+        <p>
+            the novel covers more than 30 years in the lives of a group of upper-middle-class English friends, especially Anthony Beavis and his longtime married lover, Helen. Beavis’s mother dies when he is a child. His intense prep-school friendships continue at Oxford; most important are his relationships with Brian Foxe, who later commits suicide; with Hugh Ledwidge, who marries Helen; and with Mark Staithes, who becomes a Marxist and with whom Beavis goes to Mexico to fight in a revolution. While in Mexico, Beavis adopts a Buddhist-centred philosophy, practices meditation, and becomes a pacifist.
+        </p>
+    </div>
+    
+</div>
+
+<div class="mainBioWriters">
+    <div>
+        <img src="../images/pointer.jpg" alt="Point Counter Point"/>
+    </div>
+    <div>
+        <h2>Point Counter Point</h2>
+        <h3>Aldous Huxley -1928</h3>
+    </div>
+    <div>
+        <p>
+            The novel's title is a reference to the flow of arguments in a debate, and a series of these exchanges tell the story. Instead of a single central plot, there are a number of interlinked story lines and recurring themes (as in musical "counterpoint"). As a roman à clef, many of the characters are based on real people, most of whom Huxley knew personally, such as D. H. Lawrence, Katherine Mansfield, Sir Oswald Mosley, Nancy Cunard, and John Middleton Murry, and Huxley is depicted as the novel's novelist, Philip Quarles.
+        </p>
+    </div>
+    
+</div>
+
+</div>
+
+
+<div class="buttonAuthors"><a href="authors.xhtml">Go to Authors</a></div>
+
+<footer>
+    <p>Copyright &#169; Mario Campos</p>
+</footer> 
+</body>
+</html>
